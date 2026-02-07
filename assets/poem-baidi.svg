@@ -1,0 +1,21 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3d7b6" />
+      <stop offset="45%" stop-color="#d9b9a1" />
+      <stop offset="100%" stop-color="#a9b5c5" />
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8aa2b4" />
+      <stop offset="100%" stop-color="#6a7f90" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#dawn)" />
+  <path d="M0 260C140 220 250 220 340 240C440 265 560 265 800 230V360H0V260Z" fill="#9aa5af" opacity="0.7" />
+  <path d="M0 320C150 300 260 310 380 330C510 355 640 360 800 340V480H0V320Z" fill="url(#river)" />
+  <path d="M460 320L520 320L560 340L420 340Z" fill="#2a2f33" />
+  <path d="M490 245L505 320" stroke="#2a2f33" stroke-width="6" stroke-linecap="round" />
+  <path d="M505 265L535 285" stroke="#2a2f33" stroke-width="6" stroke-linecap="round" />
+  <path d="M60 200C140 160 210 150 300 170" stroke="#f7efe2" stroke-width="8" stroke-linecap="round" opacity="0.8" />
+  <path d="M360 190C460 150 560 150 720 180" stroke="#f0e2d1" stroke-width="10" stroke-linecap="round" opacity="0.7" />
+</svg>

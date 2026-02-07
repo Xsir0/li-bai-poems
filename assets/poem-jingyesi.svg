@@ -1,0 +1,19 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d2c3f" />
+      <stop offset="60%" stop-color="#36485d" />
+      <stop offset="100%" stop-color="#5d6c7a" />
+    </linearGradient>
+    <radialGradient id="moon" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 130) rotate(90) scale(80)">
+      <stop offset="0%" stop-color="#fff7d4" />
+      <stop offset="100%" stop-color="#e6d8a8" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#sky)" />
+  <circle cx="600" cy="130" r="80" fill="url(#moon)" opacity="0.95" />
+  <path d="M0 330C120 280 200 260 320 290C430 320 520 320 640 280C700 255 760 245 800 255V480H0V330Z" fill="#1f2a33" />
+  <path d="M0 360C160 330 270 330 380 350C500 375 620 370 800 330V480H0V360Z" fill="#142027" />
+  <path d="M0 390C180 380 300 400 430 420C560 440 690 440 800 410V480H0V390Z" fill="#0e171c" />
+  <path d="M120 260C210 210 280 190 350 205" stroke="#cdd8e0" stroke-width="3" stroke-linecap="round" opacity="0.5" />
+</svg>
